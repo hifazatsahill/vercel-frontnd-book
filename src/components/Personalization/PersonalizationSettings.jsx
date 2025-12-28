@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import { userAPI } from '@/services/api';
 "use client";
 
 import React, { useState } from "react";
-
+import React, { useState, useEffect } from 'react';
+import { userAPI } from '@/services/api';
 
 const PersonalizationSettings = () => {
   const [profile, setProfile] = useState({
