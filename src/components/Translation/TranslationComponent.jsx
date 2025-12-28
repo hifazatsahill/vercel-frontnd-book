@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { userAPI } from '@/services/api';
-import MarkdownRenderer from '@/components/Book/MarkdownRenderer';
+import MarkdownRenderer from '@/src/components/Book/MarkdownRenderer';
 
 const TranslationComponent = ({ chapterId, content, title }) => {
   const [translatedContent, setTranslatedContent] = useState(null);

@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { bookAPI } from '@/services/api';
-import MarkdownRenderer from '@/components/Book/MarkdownRenderer';
+import MarkdownRenderer from '@/src/components/Book/MarkdownRenderer';
 
 export default function SearchPage() {
   const [query, setQuery] = useState('');
