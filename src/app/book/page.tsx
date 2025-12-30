@@ -1,6 +1,6 @@
 import React from 'react';
 import { getAllChapters } from '@/services/bookService';
-import TableOfContents from '@/src/components/Book/TableOfContents';
+import TableOfContents from '@/components/Book/TableOfContents';
 
 export default async function BookPage() {
   let chapters = [];

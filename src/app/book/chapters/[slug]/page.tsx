@@ -1,8 +1,8 @@
 import React from 'react';
 import { notFound } from 'next/navigation';
 import { getChapterBySlug, getAllChapters } from '@/services/bookService';
-import ChapterNavigation from '@/src/components/Book/ChapterNavigation';
-import MarkdownRenderer from '@/src/components/Book/MarkdownRenderer';
+import ChapterNavigation from '@/components/Book/ChapterNavigation';
+import MarkdownRenderer from '@/components/Book/MarkdownRenderer';
 import ChatContainer from '@/components/Chat/ChatContainer';
 import PersonalizedContent from '@/components/Personalization/PersonalizedContent';
 import TranslationComponent from '@/components/Translation/TranslationComponent';

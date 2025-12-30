@@ -1,9 +1,11 @@
+'use client';
+
 import React from 'react';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
+import { usePathname } from 'next/navigation';
 
 const ChapterNavigation = ({ chapters, currentChapterSlug }) => {
-  const router = useRouter();
+  const pathname = usePathname();
 
   if (!chapters || chapters.length === 0) {
     return null;

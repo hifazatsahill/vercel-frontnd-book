@@ -1,6 +1,8 @@
+'use client';
+
 import React, { useState } from 'react';
 import { userAPI } from '@/services/api';
-import MarkdownRenderer from '@/src/components/Book/MarkdownRenderer';
+import MarkdownRenderer from '@/components/Book/MarkdownRenderer';
 
 const PersonalizedContent = ({ chapterId, originalContent, title }) => {
   const [personalizedContent, setPersonalizedContent] = useState(null);
